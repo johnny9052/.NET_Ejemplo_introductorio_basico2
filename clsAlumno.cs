@@ -9,16 +9,17 @@ namespace CursoDotNet
     class clsAlumno
     {
 
-         private String nombre;
-        int edad;
-        int altura;
-        int peso;
-      
-        public clsAlumno(String nombre,int edad, int altura, int peso) {
+        public  String nombre { get; set; }
+        public int edad { get; set; }
+        public int altura { get; set; }
+        public int peso { get; set; }
+
+        public clsAlumno(String nombre, int edad, int altura, int peso)
+        {
             this.nombre = nombre;
             this.edad = edad;
             this.altura = altura;
-            this.peso = peso;        
+            this.peso = peso;
         }
 
         public clsAlumno()
@@ -26,41 +27,5 @@ namespace CursoDotNet
 
         }
 
-        public String getNombre()
-        {
-            return this.nombre;
-        }
-
-
-        public int getEdad()
-        {
-            return this.edad;
-        }
-
-        public int getAltura()
-        {
-            return this.altura;
-        }
-
-        public int getPeso()
-        {
-            return this.peso;
-        }
-
-        public void setNombre(String nombre){
-            this.nombre= nombre;
-        }
-
-        public void setEdad(int edad){
-            this.edad = edad;
-        }
-
-        public void setPeso(int peso){
-            this.peso = peso;
-        }
-
-        public void setAltura(int altura){
-            this.altura = altura;
-        }
     }
 }

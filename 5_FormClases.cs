@@ -21,13 +21,13 @@ namespace CursoDotNet
         {
             clsAlumno alumno = new clsAlumno();
 
-            alumno.setNombre("Johnny");
-            alumno.setEdad(24);
-            alumno.setAltura(183);
-            alumno.setPeso(69);
+            alumno.nombre = "Johnny";
+            alumno.edad = 24;
+            alumno.altura = 183;
+            alumno.peso = 69;
 
-            MessageBox.Show("Nombre: " + alumno.getNombre() + " Edad: " + alumno.getEdad() +
-                            " Altura: " + alumno.getAltura() + " Peso: " + alumno.getPeso());
+            MessageBox.Show("Nombre: " + alumno.nombre + " Edad: " + alumno.edad +
+                            " Altura: " + alumno.altura + " Peso: " + alumno.peso);
         }
     }
 }
